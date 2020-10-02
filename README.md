@@ -30,6 +30,10 @@ There are two ways of doing this, ***using my prebuilt image file or doing every
 
 **3. Flash the file, reboot and done**.
 
+| **User**     | **samsung** |
+|----------|---------|
+| **Password** | **samsung** |
+
 ##  Doing everything from scratch
 
 **1. Install pmbootstrap**: https://wiki.postmarketos.org/wiki/Installing_pmbootstrap<br/>
