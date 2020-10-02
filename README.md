@@ -10,6 +10,10 @@ According to Wikipedia:
 https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_10.1_(3G_and_Wifi)_(samsung-espresso10)
 
 ## What you will need:
+
+- A rooted Samsung Galaxy Tab 2 with TWRP installed.
+- A Linux computer
+
 Note: I have used a computer with Linux in this guide. I don't know if it can be done with other OS because I haven't tested it.
 
 There are two ways of doing this, ***using my prebuilt image file or doing everything from scratch***.
