@@ -32,7 +32,7 @@ There are two ways of doing this, ***using my prebuilt image file or doing every
 
 ##  Doing everything from scratch
 
-**1. Install pmbootstrap**: https://wiki.postmarketos.org/wiki/Installing_pmbootstrap
+**1. Install pmbootstrap**: https://wiki.postmarketos.org/wiki/Installing_pmbootstrap<br/>
 **2. Create the XFCE image**:
 
 <pre>$ pmbootstrap init</pre>
