@@ -20,7 +20,7 @@ There are two ways of doing this, ***using my prebuilt image file or doing every
 
 ## Using my prebuilt image file (flashes on /system)
 
-**XFCE**: Download from here:   https://sourceforge.net/projects/sgalaxy-tab2-linux-images/files/postmarketOS/XFCE/pmos-samsung-espresso10.zip
+**XFCE**: Download from here:   https://sourceforge.net/projects/sgalaxy-tab2-linux-images/files/postmarketOS/XFCE/pmos-samsung-xfce-espresso10-v2.0.zip
 
 ### Then follow these steps:
 
