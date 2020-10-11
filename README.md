@@ -127,6 +127,8 @@ lt023g, maguro, manta, matissevewifi, matissewifi, ms013g, n5110, n7100, nevisp,
 
 ### 2. Supposing postmarketOS is booting on your /system partition, go to recovery and with your computer do:
 
+**Note: Before doing this, make sure you have done a "sudo poweroff" instead of "sudo reboot" in your PostmarketOS system to avoid image mounting error. **
+
 <pre>$ adb shell </pre>
 <pre># dd if=/dev/block/mmcblk0p9 of=/sdcard/custom-pmos-samsung-espresso10.img</pre>
 
