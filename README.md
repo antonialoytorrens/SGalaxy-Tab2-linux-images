@@ -164,4 +164,4 @@ user="$(awk -F ':' '$3 == "10000" {print $1}' /mnt/pmOS/etc/passwd)"
 cp -a /mnt/pmOS/etc/skel /mnt/pmOS/home/"$user"
 chown -R 10000 /mnt/pmOS/home/"$user"</pre>
 
-### 8. Test and done!
+### 8. Repack the zip, flash it, test and done!
