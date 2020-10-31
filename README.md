@@ -123,15 +123,15 @@ lt023g, maguro, manta, matissevewifi, matissewifi, ms013g, n5110, n7100, nevisp,
 
 ## Booting PostmarketOS from Micro SD Card (read above steps for pmbootstrap guidance)
 
-### 1. Download my XFCE 2.0 img file HERE and burn the img to the Micro SD Card (using an image USB writer program) or doing: `pmbootstrap install --sdcard=/path/to/sdcard`
+1. Download my XFCE 2.0 img file HERE and burn the img to the Micro SD Card (using an image USB writer program) or doing: `pmbootstrap install --sdcard=/path/to/sdcard`
 
-### 2. Download the FAKE pmOS zip. It's a sample zip file to avoid errors of the initial script installer. Then, push it to the tablet using `adb push` and then flash it.
+2. Download the FAKE pmOS zip. It's a sample zip file to avoid errors of the initial script installer. Then, push it to the tablet using `adb push` and then flash it.
 
-### 3. WIPE /system partition (where sample postmarketOS is installed).
+3. WIPE /system partition (where sample postmarketOS is installed).
 
-### 4. Insert your Micro SD Card to your tablet.
+4. Insert your Micro SD Card to your tablet.
 
-### 5. Reboot and enjoy!
+5. Reboot and enjoy!
 
 ##  Optional: How to do your own PostmarketOS espresso10 prebuilt image file
 
