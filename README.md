@@ -131,8 +131,9 @@ It is partially working, as it can be enabled only via Linux Terminal and it's u
 
 <pre>$ sudo apk add bluez bluez-deprecated</pre>
 
-/usr/sbin/brcm_patchram_plus -d --patchram /lib/firmware/postmarketos/brcm/bcm4330.hcd --baudrate 921600 --bd_addr $(cat /lib/firmware/postmarketos/brcm/mac.txt) --enable_hci /dev/ttyGS?? &</pre>
+/usr/sbin/brcm_patchram_plus -d --patchram /lib/firmware/postmarketos/brcm/bcm4330.hcd --baudrate 921600 --bd_addr $(cat /lib/firmware/postmarketos/brcm/mac.txt) --enable_hci /dev/ttyO1 &</pre>
 
+/dev/ttyO1 seems to work, as doing later `dmesg` marks Bluetooth on. mac.txt could be random mac, but it is more correct to generate mac based on serial device eMMC.
 
 ## Booting PostmarketOS from Micro SD Card (read above steps for pmbootstrap guidance)
 
