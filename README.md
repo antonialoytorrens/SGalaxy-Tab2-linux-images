@@ -120,10 +120,23 @@ lt023g, maguro, manta, matissevewifi, matissewifi, ms013g, n5110, n7100, nevisp,
 
 **3. Reboot and done!**
 
+#### Bluetooth
+
+Bluetooth can get working via `brcm_patchram_plus` package.
+
+<pre>$ sudo apk add brcm-patchram-plus</pre>
+
+It is partially working, as it can be enabled only via Linux Terminal and it's using bluez-deprecated package.<br/>
+
+
+<pre>$ sudo apk add bluez bluez-deprecated</pre>
+
+/usr/sbin/brcm_patchram_plus -d --patchram /lib/firmware/postmarketos/brcm/bcm4330.hcd --baudrate 921600 --bd_addr $(cat /lib/firmware/postmarketos/brcm/mac.txt) --enable_hci /dev/ttyGS?? &</pre>
+
 
 ## Booting PostmarketOS from Micro SD Card (read above steps for pmbootstrap guidance)
 
-1. Download my XFCE 2.0 img file <a href="https://sourceforge.net/projects/sgalaxy-tab2-linux-images/files/postmarketOS/XFCE/external_sd/samsung-espresso10-xfce4-2.0.img">HERE</a> and burn the img to the Micro SD Card (using an image USB writer program). You can also instead write your own image to the Micro SD Card using pmbootstrap: `pmbootstrap install --sdcard=/path/to/sdcard`
+1. Download my XFCE 2.1 img file <a href="https://sourceforge.net/projects/sgalaxy-tab2-linux-images/files/postmarketOS/XFCE/external_sd/samsung-espresso10-xfce4-2.1.img">HERE</a> and burn the img to the Micro SD Card (using an image USB writer program). You can also instead write your own image to the Micro SD Card using pmbootstrap: `pmbootstrap install --sdcard=/path/to/sdcard`
 
 2. Download the FAKE pmOS zip <a href="https://sourceforge.net/projects/sgalaxy-tab2-linux-images/files/postmarketOS/XFCE/external_sd/FAKE-pmos-samsung-espresso10.zip">HERE</a>. It's a sample zip file to avoid errors of the initial script installer. Then, push it to the tablet using `adb push` and then flash it.
 
