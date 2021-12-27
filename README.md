@@ -9,6 +9,18 @@ According to Wikipedia:
 
 https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_10.1_(3G_and_Wifi)_(samsung-espresso10)
 
+## What works:
+
+### Mainline (5.15.x kernel, new and well maintained kernel) Port For 7 inch devices (espresso3g, espressowifi)
+
+See https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_7.0%22_(samsung-espresso3g), read mainline section.
+
+### Downstream (3.0.x kernel, very old unsupported kernel) Vendor Port For 10 inch devices (espresso10)
+
+See https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_7.0%22_(samsung-espresso3g), read downstream section.
+
+We divide this into two categories because the 10 inch devices use different touch and display panels than the 7 inch devices. [Mighty17] and me only have 7 inch device to test, so feel free to write an issue if you own this device and you want some mainline support for it (you need to be familiar typing commands on Linux terminal to test things, so some Linux experience is appreciated).
+
 ## What you will need:
 
 - A rooted Samsung Galaxy Tab 2 with TWRP installed.
