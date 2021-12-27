@@ -19,7 +19,7 @@ See https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_7.0%22_(samsung-espr
 
 See https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_7.0%22_(samsung-espresso3g), read downstream section.
 
-We divide this into two categories because the 10 inch devices use different touch and display panels than the 7 inch devices. [Mighty17] and me only have 7 inch device to test, so feel free to write an issue if you own this device and you want some mainline support for it (you need to be familiar typing commands on Linux terminal to test things, so some Linux experience is appreciated).
+We divide this into two categories because the 10 inch devices use different touch and display panels than the 7 inch devices. [Mighty17](https://github.com/MightyM17/) and me only have 7 inch device to test, so feel free to write an issue if you own this device and you want some mainline support for it (you need to be familiar typing commands on Linux terminal to test things, so some Linux experience is appreciated).
 
 ## What you will need:
 
