@@ -29,7 +29,10 @@ We divide this into two categories because the 10 inch devices use different tou
 Note: I have used a computer with Linux in this guide. I don't know if it can be done with other OS because I haven't tested it.
 
 There are two ways of doing this, ***using my prebuilt image file or doing everything from scratch***.
-**If you use my prebuilt image file, mind that you won't have official PostmarketOS support to ask for issues. The easier way is downloading my prebuilt image file, but the recommended way is building everything from scratch.**
+
+## Before starting anything
+
+:warning: **If you use my prebuilt image file, mind that you won't have official PostmarketOS support to ask for issues. The easier way is downloading my prebuilt image file, but the recommended way is building everything from scratch.** :warning:
 
 ## Using my prebuilt image file (flashes on /system)
 
