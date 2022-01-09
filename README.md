@@ -23,7 +23,7 @@ We divide this into two categories because the 10 inch devices use different tou
 
 ## What you will need:
 
-- A rooted Samsung Galaxy Tab 2 with TWRP installed.
+- Bootloader unlocked Samsung Galaxy Tab 2 with TWRP installed. Pick [andi34 (Android-Andi) TWRP if you haven't already](https://www.androidfilehost.com/?w=files&flid=48848&sort_by=date&sort_dir=DESC).
 - A Linux computer
 
 Note: I have used a computer with Linux in this guide. I don't know if it can be done with other OS because I haven't tested it.
