@@ -11,7 +11,7 @@ https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_10.1_(3G_and_Wifi)_(sams
 
 ## What works:
 
-### Mainline (5.15.x kernel, new and well maintained kernel) Port For 7 inch devices (espresso3g, espressowifi)
+### Mainline (5.17.x kernel, new and well maintained kernel) Port For 7 inch devices (espresso3g, espressowifi)
 
 See https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_7.0%22_(samsung-espresso3g), read mainline section.
 
@@ -34,7 +34,7 @@ There are two ways of doing this, ***using my prebuilt image file or doing every
 
 :warning: **If you use my prebuilt image file, mind that you won't have official PostmarketOS support to ask for issues. The easier way is downloading my prebuilt image file, but the recommended way is building everything from scratch.** :warning:
 
-## Using my prebuilt image file (flashes on /system)
+## Using my prebuilt image file (flashes on /system) (NOTICE: 5.17.x flashes on /sdcard due to space issues, so backup before continuing)
 
 **Mainline images (IMPORTANT! THEY DO NOT WORK ON 10-INCH SAMSUNG GALAXY TAB 2 DEVICE, AND READ NOTES, INCLUDED IN THE LINK)**: Download from here: https://sourceforge.net/projects/sgalaxy-tab2-linux-images/files/postmarketOS/mainline/ 
 
