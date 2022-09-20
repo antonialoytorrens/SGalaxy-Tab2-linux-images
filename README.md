@@ -56,6 +56,12 @@ There are two ways of doing this, ***using my prebuilt image file or doing every
 |----------|---------|
 | **Password** | **samsung** |
 
+OR
+
+| **User**     | **samsung** |
+|----------|---------|
+| **Password** | **1234** |
+
 ##  Doing everything from scratch
 
 Follow the official guide (you may need to search for additional information): 
