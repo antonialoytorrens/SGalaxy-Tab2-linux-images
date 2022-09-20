@@ -58,11 +58,19 @@ There are two ways of doing this, ***using my prebuilt image file or doing every
 
 ##  Doing everything from scratch
 
-Follow the official guide (you may need to search for additional information): https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_10.1_(3G_and_Wifi)_(samsung-espresso10).
+Follow the official guide (you may need to search for additional information): 
+
+* Mainline: https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_7.0%22_(samsung-espresso3g).
+* Downstream: https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_10.1_(3G_and_Wifi)_(samsung-espresso10).
 
 ## Pvrports
 
 Pvrports are additional PostmarketOS aports that need to be build in order to have non-free GPU support with this tablet and other devices that have a PowerVR SGX GPU.
-It's **not** supported by official PostmarketOS team due to additional burden mainteinance, here's why: https://gitlab.com/postmarketOS/pmaports/-/issues/1316
+It's **not** supported by official PostmarketOS team due to additional burden maintenance, here's why: https://gitlab.com/postmarketOS/pmaports/-/issues/1316
 
 Source code: https://gitlab.com/pvrports/pvrports
+
+ ## Videos
+ 
+ * Showcasing Plasma Mobile: https://youtu.be/7DCXtpDmrPQ
+ * Showcasing Phosh: https://youtu.be/uG7LSFHO_Vg
