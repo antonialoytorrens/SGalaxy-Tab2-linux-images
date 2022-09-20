@@ -62,5 +62,7 @@ Follow the official guide (you may need to search for additional information): h
 
 ## Pvrports
 
-Pvrports are additional PostmarketOS aports that need to be build in order to have non-free GPU support.
+Pvrports are additional PostmarketOS aports that need to be build in order to have non-free GPU support with this tablet and other devices that have a PowerVR SGX GPU.
 It's **not** supported by official PostmarketOS team due to additional burden mainteinance, here's why: https://gitlab.com/postmarketOS/pmaports/-/issues/1316
+
+Source code: https://gitlab.com/pvrports/pvrports
