@@ -59,3 +59,8 @@ There are two ways of doing this, ***using my prebuilt image file or doing every
 ##  Doing everything from scratch
 
 Follow the official guide (you may need to search for additional information): https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_2_10.1_(3G_and_Wifi)_(samsung-espresso10).
+
+## Pvrports
+
+Pvrports are additional PostmarketOS aports that need to be build in order to have non-free GPU support.
+It's **not** supported by official PostmarketOS team due to additional burden mainteinance, here's why: https://gitlab.com/postmarketOS/pmaports/-/issues/1316
